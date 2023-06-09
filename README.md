@@ -91,3 +91,11 @@ pip install pypeg2
 pip install ecpay_invoice3
 apt-get install ttf-wqy-zenhei ttf-wqy-microhei -y
 ```
+### To clone a GitHub repository to a specific folder on your local machine using Git
+```sh
+git clone <repository_url> <folder_path>
+```
+example:
+```sh
+git clone https://github.com/username/example-repo ~/Desktop/my-project
+```
