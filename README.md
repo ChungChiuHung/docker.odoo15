@@ -1,5 +1,24 @@
 # odoo dev
 Create an Odoo development environment using Docker via WSL (Windows Subsystem for Linux) in VSCode.
+
+# Install Docker Compose
+To install Docker Compose on Ubuntu, you can follow these steps:
+1. Update the package lists for upgrades and installations:
+```sh
+sudo apt update
+```
+2. Install Docker Compose using the curl command:
+```sh
+sudo curl -L "https://github.com/docker/compose/releases/latest/download/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+```
+3. Apply executable permissions to the Docker Compose binary:
+```sh
+sudo chmod +x /usr/local/bin/docker-compose
+```
+4. Verify the installation by checking the version of Docker Compose:
+```sh
+docker-compose --version
+```
 # Install Docker/Vscode Server on WSL Ubuntu
 1. Update the package lists:
 ```sh
