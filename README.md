@@ -33,8 +33,8 @@
 ```sh
     docker version
 ```
-# Odoo Master Password
-tiyj-hq5s-rb6k
+## Store/Change the Odoo Master Password
+xxxx-xxxx-xxxx
 
 # Get into a container name "Container_Name" and start in interactive Bash shell
 ```sh
