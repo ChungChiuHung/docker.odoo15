@@ -1,6 +1,6 @@
 # odoo
 Create an Odoo development environment using Docker via WSL (Windows Subsystem for Linux) in VSCode.
-# Install Docker on WSL Ubuntu
+# Install Docker/Vscode Server on WSL Ubuntu
 1. Update the package lists:
 ```sh
 sudo apt update
@@ -38,9 +38,18 @@ docker version
 ```sh
 mkdir odoo_dev
 ```
-10. 
-
-
+10. Change the ownership of a directory and its child folders/files
+```sh
+sudo chown -R $USER:$USER /folder/to/path
+```
+ - get the current folder path
+ ```sh
+ pwd
+ ```
+11. Install Vscode Server
+```sh
+code .
+```
 ## Store/Change the Odoo Master Password
 xxxx-xxxx-xxxx
 
