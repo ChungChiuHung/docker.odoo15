@@ -78,12 +78,13 @@ sudo docker-compose up -d
 Store/Change the Odoo Master Password
 xxxx-xxxx-xxxx
 
-# Get into a container name "Container_Name" and start in interactive Bash shell
+## Optional
+### Get into a container name "Container_Name" and start in interactive Bash shell
 ```sh
 docker exec -it Container_Name bash
 docker exec -it --user root Container_Name /bin/bash
 ```
-# Install Package in the Odoo Docker container
+### Install Package in the Odoo Docker container
 ```sh
 apt-get update
 pip install pypeg2
