@@ -49,7 +49,7 @@ sudo apt install docker-ce docker-ce-cli containerd.io
 ```sh
 sudo usermod -aG docker $USER
 ```
-8. Verify Docker installation by running the Docker version command:
+8. Restart & Verify Docker installation by running the Docker version command:
 ```sh
 docker version
 ```
