@@ -107,3 +107,7 @@ example:
 ```sh
 git clone https://github.com/username/example-repo ~/Desktop/my-project
 ```
+Use the 'chown' command to change ownership if necessary:
+```sh
+sudo chown $USER:$USER /path/to/your/file_or_directory
+```
